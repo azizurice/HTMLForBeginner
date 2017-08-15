@@ -1,5 +1,6 @@
 body{
-  background-color: red
+  background-color: #24292e
+
 }
 h1 {
     display: block;
@@ -9,5 +10,21 @@ h1 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
-   color: green;
+   color: #FF9900;
 }
+
+h2{
+    color: white;
+}
+h4{
+color:white;
+}
+H6{
+color:white;
+}
+p.meta {
+    color: white;
+	}
+p.deta{
+   color:#FF9900;
+   }
