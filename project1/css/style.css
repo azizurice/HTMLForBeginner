@@ -1,5 +1,6 @@
 
 body{
+
   background-color: #24292e
 
 }
@@ -17,9 +18,27 @@ h1 {
 h2, h4, h6 {
 color:white;
 }
+p {
+  color:white;
+}
 p.meta {
     color: white;
 	}
 p.deta{
    color:#FF9900;
+   }
+
+.flex-container {
+   display: -webkit-flex; /* Safari */
+   display: flex;
+   flex-direction: row;
+   }
+
+   .flexbox-container > div {
+   	width: 50%;
+   	padding: 10px;
+   }
+
+   .flexbox-container > div:first-child {
+   	margin-right: 20px;
    }
