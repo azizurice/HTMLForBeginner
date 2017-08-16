@@ -1,5 +1,6 @@
 
 body{
+
   background-color: #24292e
 
 }
@@ -14,12 +15,32 @@ h1 {
    color: #FF9900;
 }
 
-h2, h4, h6 {
+h2, h4, h6,h3 {
    color:white;
 }
+
+h3,h4,h6{
+  margin-left:20px;
+}
+
 p.first{
+margin-left:20px;
     color: white;
 	}
+	
 p.second{
    color:#FF9900;
+   margin-left:20px;
    }
+
+.flex-container {
+   display: -webkit-flex; /* Safari */
+   display: flex;
+   	width: 50%;
+   	padding: 10px;
+    
+	align-items: center;
+	align-self:auto;
+   }
+
+  
