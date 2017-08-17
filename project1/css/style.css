@@ -1,7 +1,7 @@
 
 body{
   background-color: #24292e
-}
+     }
 
 h1 {
     display: block;
@@ -12,20 +12,21 @@ h1 {
     -webkit-margin-end: 0px;
     font-weight: bold;
    color: #FF9900;
-}
+    }
 
 h2, h4, h6,h3 {
    color:white;
-}
+    }
+
 h4,h6{
   margin-left:20px;
-}
+    }
 
 p.first{
 margin-left:20px;
     color: white;
-	}
-	
+	 }
+
 p.second{
    margin-left:20px;
    color:#FF9900;
@@ -34,29 +35,56 @@ p.second{
 .flex-container {
    display: -webkit-flex; /* Safari */
    display: flex;
-   	width: 50%;
+   	width: 85%;
    	padding: 10px;
 	align-items: center;
    }
    
-   
-    *{box-sizing: border-box}
-
+*{box-sizing: border-box}
 .container {
   text-align: right;
   width: 100%;
   text-align: right;
-  background-color: #1a1a1;
+  background-color: #1a1a1a;
     }
-
 .skills {
+  text-align: left;
   padding-right: 20px;
   line-height: 40px;
   color: white;
   }
-
 .Portraits {width: 89%; background-color: #ffb84d;}
 .Editorial {width: 95%; background-color: #ffb84d;}
 .Fashion {width: 65%; background-color: #ffb84d;}
 
-  
+  @import "compass/css3";
+
+.wrapper {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  font-weight: bold;
+}
+
+.wrapper > * {
+  padding: 10px;
+}
+
+.main {
+  text-align: left;
+}
+
+.aside-1 {
+  background: #1a1a1a;
+  width:10px;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+}
