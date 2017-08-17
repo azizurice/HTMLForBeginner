@@ -1,9 +1,8 @@
 
 body{
-
   background-color: #24292e
-
 }
+
 h1 {
     display: block;
     font-size: 4em;
@@ -18,8 +17,7 @@ h1 {
 h2, h4, h6,h3 {
    color:white;
 }
-
-h3,h4,h6{
+h4,h6{
   margin-left:20px;
 }
 
@@ -29,8 +27,8 @@ margin-left:20px;
 	}
 	
 p.second{
-   color:#FF9900;
    margin-left:20px;
+   color:#FF9900;
    }
 
 .flex-container {
@@ -38,9 +36,27 @@ p.second{
    display: flex;
    	width: 50%;
    	padding: 10px;
-    
 	align-items: center;
-	align-self:auto;
    }
+   
+   
+    *{box-sizing: border-box}
+
+.container {
+  text-align: right;
+  width: 100%;
+  text-align: right;
+  background-color: #1a1a1;
+    }
+
+.skills {
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+  }
+
+.Portraits {width: 89%; background-color: #ffb84d;}
+.Editorial {width: 95%; background-color: #ffb84d;}
+.Fashion {width: 65%; background-color: #ffb84d;}
 
   
