@@ -1,7 +1,3 @@
-body{
-	padding:em;
-}
-
 .wrapper{
 	display:flex;      
 }
@@ -13,10 +9,14 @@ body{
 }
 
 a {
-	display: block;
-	color:#ffb84d;
+	color:white;
+	text-decoration: none;
 }
-	
+
+a:hover {
+    color: #FF9900;
+}	
+
 .column-2{
 	background-color:#333333;
 	padding:1em;
