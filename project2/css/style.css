@@ -1,3 +1,21 @@
-h4{
-color:green;
+
+.wrapper{
+	display:flex;
+    margin-left:250px;	
+}
+.column-1{
+    background-color:white;
+	width:570px;
+	height:640px;
+	padding:30px;
+}
+.column-2{
+	background-color: #6cc3e0;
+	width:230px;
+	height:700px;
+	text-align:center;
+}
+.colum{
+	background-color: #2487a8;
+	height:180px;
 }
