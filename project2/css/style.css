@@ -1,7 +1,11 @@
 
+* {
+   border: 1px solid red !important;
+}
+
 .wrapper{
 	display:flex;
-    margin-left:250px;	
+    margin-left:250px;
 }
 .column-1{
     background-color:white;
