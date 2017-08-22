@@ -1,5 +1,11 @@
+
+
+* {
+   border: 1px solid red !important;
+}
+
 .wrapper{
-	display:flex;	
+	display:flex;
 }
 
 .column-1{
@@ -15,7 +21,7 @@ a {
 
 a:hover {
     color: #FF9900;
-}	
+}
 
 .fa {
   font-size: 20px;
@@ -37,7 +43,7 @@ a:hover {
 .column-2{
 	background-color:#333333;
 	padding:1em;
-} 
+}
 
 h1 {
 	display: block;
@@ -46,7 +52,7 @@ h1 {
     color: #FF9900;
 }
 
-  
+
 h2, h3, h4 ,h6 {
 	color:white;
 }
@@ -86,4 +92,3 @@ h4 , h6{
 .Portraits {width: 89%; background-color: #ffb84d;}
 .Editorial {width: 95%; background-color: #ffb84d;}
 .Fashion {width: 65%; background-color: #ffb84d;}
-
