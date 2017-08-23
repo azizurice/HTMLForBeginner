@@ -30,21 +30,15 @@
 	margin-left:5px;
 	color:white;
 }
-a {
-	color:white;
-	text-decoration: none;
-	font-size: 20px;
-	width: 20px;
-}	
-
+	
 .fa {
-	font-size: 20px;
+	color:white;
 	width: 20px;
+	font-size: 25px;
 	text-decoration: none;
 }
 
 .material-icons{
-	font-size: 20px;
-	width: 20px;
-	color:white;
-  }
+	height:28px;
+	width:25px;
+}
