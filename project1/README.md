@@ -21,5 +21,5 @@
     |   |   |   |   |   |   |  |   |  |  |  |  |  |  |  | | |  |
     t   t   t   t   t   t   t  t   t  t  t  t  t  t  t  t t t  |
                                                        ------------
-     Note: here t means text                          |    |     |
-                                                       t    br   t
+     Note: here t means text                           |    |     |
+                                                       t    br    t
