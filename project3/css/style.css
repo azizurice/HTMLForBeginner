@@ -2,16 +2,35 @@ body{
 	background-image: url(../images/Desert.jpg);	
 }
 
-div {
-	background-color:white;
-	text-align:center;
-	margin-left:520px;
-	width:550px;
+.wrapper{
+	display: flex;
+	margin-left: 20%;
+}
+
+.nav{
+	width: 150px;
+}
+
+a{ 
+	background-color: #009999;
+	display: block;
+	color: white;
+	text-align: center;	
+	text-decoration: none;
+}
+		
+.main{
+	background-color: white;
+	text-align: center;
+	margin-left: 5px;
+	width: 550px;
+	height: 640px;
 }
 
 hr{
-	width:400px;
+	width: 400px;
 }
+
 .fa {
 	background: black;
 	color: white;
@@ -23,9 +42,9 @@ hr{
 }
 
 footer{
-    background-color:#009999;
-	color:white;
+    background-color: #009999;
+	color: white;
     border-radius: 4px;
-	width:450px;
-	margin-left:45px;
+	width: 450px;
+	margin-left: 45px;
 }
