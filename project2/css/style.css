@@ -2,6 +2,7 @@
    border: 1px solid red !important;
 }
 
+
 .wrapper{
 	display:flex;
     border: 20px solid #e6e6e6;
@@ -29,7 +30,7 @@
 	margin-left:5px;
 	color:white;
 }
-	
+
 .fa {
 	color:white;
 	width: 20px;
@@ -40,4 +41,17 @@
 .material-icons{
 	height:28px;
 	width:25px;
+}
+
+.roundedImage {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow:hidden;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    width:60px;
+    height:60px;
 }
