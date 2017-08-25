@@ -1,0 +1,9 @@
+nav > ul {
+  display: flex;
+}
+nav > ul > #login {
+  margin-left: auto;
+}
+.item {
+  width: 80px;
+}

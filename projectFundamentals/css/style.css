@@ -1,0 +1,26 @@
+
+h1{
+  color : red;
+}
+
+
+h1 h2{
+  color: green;
+}
+
+p{
+  color : red;
+}
+
+div > p {
+  color: yellow;
+
+}
+
+div + a {
+  color : orange;
+}
+
+div~span{
+  color: gray;
+}
