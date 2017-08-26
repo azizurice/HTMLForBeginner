@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+/* Responsive Web Design : Define GRID system (Mobile First Approach) and how would it behave based on the device size
+
+ whenever row class is used, it clear floating style */
 .row::after {
     content: "";
     clear: both;
@@ -33,6 +37,8 @@ html {
 .menu li:hover {
     background-color: #0099cc;
 }
+
+/* If you have side in  your site  */
 .aside {
     background-color: #33b5e5;
     padding: 15px;
@@ -82,3 +88,6 @@ html {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
+
+/* The above rules are common for Any Responsive Web Design- Mobile First Approach */
