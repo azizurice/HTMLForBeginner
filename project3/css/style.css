@@ -26,7 +26,10 @@ a{
 	width: 550px;
 	height: 640px;
 }
-
+img{
+    border-radius: 50%;
+	margin-top:30px;
+}
 hr{
 	width: 400px;
 }
@@ -46,5 +49,5 @@ footer{
 	color: white;
     border-radius: 4px;
 	width: 450px;
-	margin-left: 45px;
+	margin-left: 48px;
 }
