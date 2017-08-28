@@ -1,0 +1,49 @@
+.wrapper{
+	display:flex;
+}
+
+.pic1{
+	background-image: url(../images/Koala.jpg);	
+	height:400px;
+	width:500px;
+	text-align:center;
+}
+
+.pic2{
+	background-image: url(../images/Koala.jpg);	
+	height:200px;
+	width:200px;
+	text-align:center;
+}
+
+.pic3{
+	background-image: url(../images/Koala.jpg);	
+	height:200px;
+	width:200px;
+	text-align:center;
+}
+
+
+.pic6{
+	background-image: url(../images/Koala.jpg);	
+	height:300px;
+	width:300px;
+	text-align:center;
+}
+
+.pic7{
+	background-image: url(../images/Koala.jpg);	
+	height:300px;
+	width:300px;
+	text-align:center;
+}
+
+.pic8{
+	background-image: url(../images/Koala.jpg);	
+	height:300px;
+	width:300px;
+	text-align:center;
+}
+.down{
+	display:flex;
+}
