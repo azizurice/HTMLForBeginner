@@ -1,0 +1,43 @@
+.doe{
+    display: flex;
+	background-image: url(../images/Chrysanthemum.jpg);
+	color :white;
+}
+
+img{
+	padding: 50px;
+}
+
+a{ 
+	padding: 40px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav{
+	background-color: #009999;
+	height: 40px;
+	text-align: center;
+}
+
+h1{
+	color: #009999;
+	text-align: center;
+}
+
+.para{
+	display: flex;
+	margin-left: 300px;
+}
+
+.border{
+	border-style: solid;
+	margin-left: 80px;
+	height: 170px;
+	width: 300px;
+}
+
+h4{
+	text-align: center;
+	color: #009999;
+}
