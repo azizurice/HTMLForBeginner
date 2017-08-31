@@ -1,9 +1,11 @@
 body{
 	width: 600px;
+	height: 1350px;
 	margin-left: 400px;
 	text-align: center;
 	display: flex;
 	flex-direction:column;
+	border: 15px solid red;
 }
 
 .kelly{
@@ -52,14 +54,18 @@ body{
 .employ{
 	background-color: #f2f2f2;
 	height: 60px;
+}
+
+h4{
+	background-color: #33CCFF;
+	width: 120px;
 	text-align: center;
-	
+	margin-left: 220px;
 }
 
 .education{
 	background-color: #f2f2f2;
 	height: 60px;
-	text-align: center;
 	margin-top: 5px;
 }
 
@@ -88,4 +94,63 @@ h5{
 	background: #33CCFF;
 	color: white;
 	border-radius: 50%;
+}
+
+.skill{
+	height: 60px;
+	background-color: #f2f2f2;
+}
+
+.skillsbar{
+	display: flex;
+	padding: 10px;
+}
+
+.gra{
+	width:280px;
+}
+
+.container {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.skills {
+	text-align: center;
+	line-height: 20px;
+	color: white;
+}
+
+.adobe {
+	width: 60%; background-color: #4CAF50;
+	}
+.adobe1 {
+	width: 80%; background-color: #2196F3;
+}
+.adobe2 {
+	width: 65%; background-color: #f44336;
+}
+.adobe3 {
+	width: 60%; background-color: #808080;
+}
+.adobe4 {
+	width: 80%; background-color: red;
+}
+
+.pro{
+	width:280px;
+	margin-left: 10px;
+}
+
+.html {
+	width: 80%; background-color: #ff99ff;
+	}
+.css {
+	width: 90%; background-color: #ffcc80;
+}
+.js {
+	width: 75%; background-color: #00ff55;
+}
+.php {
+	width: 96%; background-color: #808080;
 }
