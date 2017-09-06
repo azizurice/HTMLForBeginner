@@ -108,6 +108,84 @@ h1 {
   text-align: center;
 }
 
+.click_item {
+  font-family: 'helvetica neue', helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgba(0,0,200,0.6);
+  background: rgba(0,0,200,0.3);
+  color: rgba(0,0,200,0.6);
+  box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: block;
+  cursor:pointer;
+}
+
+/* For Form */
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 100%;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+/*form div + div {
+  margin-top: 1em;
+}*/
+
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+
+  /* To give the same size to all text fields */
+  width: 100%;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input {
+  height: 2em;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 7em;
+}
+
+
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-bottom: .5em;
+}
+
+
 
 /* For mobile phones: */
 [class*="col-"] {

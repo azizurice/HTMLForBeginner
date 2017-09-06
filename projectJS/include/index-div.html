@@ -7,6 +7,7 @@
     <title> Experiment on Div</title>
 
     <link rel="stylesheet" href="../css/style-div.css">
+      <script type="text/javascript" src="../js/script-div.js" async defer> </script>
   </head>
   <body>
         <div class="header">
@@ -69,10 +70,44 @@
             <li class="flex-item">10</li>
             <li class="flex-item">11</li>
             <li class="flex-item">12</li>
+
+          </ul>
+
+          <ul class="flex-container">
+            <button class="flex-item">Click me!</button>
           </ul>
         </div>
         <div class="col-3 col-tablet-3 color-second">
-          <ul class="flex-container">
+
+
+          <form class="flex-container" action="/my-handling-form-page" method="post">
+              <div class="row">
+                  <label class="col-4 col-tablet-4" for="name">Name:</label>
+                  <div class="col-8 col-tablet-8">
+                      <input type="text" id="name" name="user_name">
+                  </div>
+
+              </div>
+              <div class="row">
+                  <label class="col-4 col-tablet-4" for="mail">E-mail:</label>
+                  <div class="col-8 col-tablet-8">
+                    <input type="email" id="mail" name="user_mail">
+                  </div>
+              </div>
+              <div class="row">
+                  <label class="col-4 col-tablet-4" for="msg">Message:</label>
+                  <div class="col-8 col-tablet-8">
+                      <textarea id="msg" name="user_message"></textarea>
+                  </div>
+
+              </div>
+
+              <div class="row">
+                <button type="submit">Send your message</button>
+             </div>
+          </form>
+
+          <!-- <ul class="flex-container">
             <li class="flex-item">1</li>
             <li class="flex-item">2</li>
             <li class="flex-item">3</li>
@@ -85,7 +120,7 @@
             <li class="flex-item">10</li>
             <li class="flex-item">11</li>
             <li class="flex-item">12</li>
-          </ul>
+          </ul> -->
         </div>
         <div class="col-3 col-tablet-3 color-third">
           <ul class="flex-container">
