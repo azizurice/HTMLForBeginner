@@ -95,6 +95,8 @@ h1, h3 {
   justify-content: space-around;
 }
 
+
+
 .flex-item {
   background: tomato;
   padding: 5px;
@@ -185,9 +187,10 @@ button {
   margin-bottom: .5em;
 }
 
-table {
+table, tr {
   align-self: center;
 }
+
 td {
 border: 1px solid black;
 height: 50px;
