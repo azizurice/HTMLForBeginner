@@ -19,7 +19,7 @@
 html {
     font-family: "Lucida Sans", sans-serif;
 }
-h1 {
+h1, h3 {
     text-align: center;
 }
 .header {
@@ -183,6 +183,15 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-bottom: .5em;
+}
+
+table {
+  align-self: center;
+}
+td {
+border: 1px solid black;
+height: 50px;
+width: 50px;
 }
 
 
