@@ -2,11 +2,16 @@ body{
   color: white;
 }
 
-.flex{
+.profile{
+  display: flex;
+}
+
+.column{
   width: 600px;
   display: flex;
   flex-wrap: wrap;
 }
+
 .col-1{
   background-color: #47d147;
   width: 400px;
@@ -74,3 +79,20 @@ body{
 .logo{
   margin-top: 40px;
  }
+
+ /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+  .col-1 {width: 400px;}
+  .col-2 {width: 200px;}
+  .col-3 {width: 200px;}
+  .col-4 {width: 200px;}
+  .col-5 {width: 200px;}
+  .col-6 {width: 200px;}
+  .col-7 {width: 200px;}
+  .col-8 {width: 200px;}
+}
