@@ -1,0 +1,45 @@
+.background-pic{
+  background-image: url(../images/chess-2730034__340.jpg);
+  background-size: 1500px 800px;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+}
+
+.bar{
+  color: #ff6666;
+  margin-left: 20px;
+}
+
+.rayhan{
+  text-align: center;
+}
+.one{
+  width: 170px;
+  color: #ff6666;
+}
+
+.hire{
+ background-color: #ff6666;
+ width: 70px;
+ border-radius: 5px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+.about{
+  display: flex;
+  padding: 100px;
+}
+
+.two{
+  color: #ff6666;
+  width: 50px;
+  margin-left: 1px;
+}
+
+img{
+  margin-left: 400px;
+}
