@@ -141,3 +141,105 @@ h3{
     position: relative;
     border-radius: 6px;
 }
+
+.skillsbar{
+  background-image: url(../images/pexels-photo-193004.jpeg);
+  color: white;
+  padding: 70px;
+  background-size: 1333px 600px;
+  background-repeat: repeat;
+  height: 600px;
+}
+
+.progress{
+  display: flex;
+}
+
+.myProgress {
+  width: 200px;
+  background-color: white;
+}
+
+.bars{
+  padding: 100px;
+}
+.myBar {
+  width: 90%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar2 {
+  width: 98%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar3 {
+  width: 70%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar4 {
+  width: 90%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar5 {
+  width: 80%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar6 {
+  width: 96%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar7 {
+  width: 90%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar8 {
+  width: 80%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.myBar9 {
+  width: 96%;
+  height: 3px;
+  background-color: #ff6666;;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
