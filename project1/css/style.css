@@ -5,7 +5,9 @@
 }
 
 .wrapper{
-	display:flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  
 }
 
 .column-1{
@@ -72,9 +74,9 @@ h4 , h6{
 }
 
 .flex-container {
-	display: -webkit-flex; /* Safari */
 	display: flex;
-	width: 85%;
+	flex-flow: row wrap;
+	width: 75%;
 	padding: 10px;
 }
 
@@ -92,3 +94,15 @@ h4 , h6{
 .Portraits {width: 89%; background-color: #ffb84d;}
 .Editorial {width: 95%; background-color: #ffb84d;}
 .Fashion {width: 65%; background-color: #ffb84d;}
+
+/* For mobile phones: */
+[class*="column-"] {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .column-1 {width: 20%;}
+    .column-2 {width: 75%;}
+}
