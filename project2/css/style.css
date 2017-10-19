@@ -16,7 +16,7 @@
 }
 
 .column-1{
-    background-color:red;
+  background-color:red;
 	width:570px;
 	padding:30px;
 }
@@ -33,17 +33,13 @@
 }
 
 .contact {
-	margin-left:5px;
+	padding: 5px;
 	color:white;
 }
 
 .fa {
 	color:white;
-}
-
-.material-icons{
-	height:28px;
-	width:25px;
+  text-align: center;
 }
 
 .roundedImage {
