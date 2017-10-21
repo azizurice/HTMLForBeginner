@@ -14,9 +14,7 @@ body{
   -webkit-flex-flow: row wrap;
 }
 
-.col-2{
-	background-color:#262626;
-}
+
 
 a{
   color: white;
@@ -45,9 +43,7 @@ a:hover {
   padding: 5px;
 }
 
-.col-10{
-	background-color:#333333;
-}
+
 
 h1 {
     color: #FF9900;
@@ -102,6 +98,14 @@ h2, h3, h4 ,h6 {
 .Portraits {width: 89%; background-color: #ffb84d;}
 .Editorial {width: 95%; background-color: #ffb84d;}
 .Fashion {width: 65%; background-color: #ffb84d;}
+
+.color-nero {
+	background-color:#262626;
+}
+
+.color-night-rider {
+	background-color:#333333;
+}
 
 /* For mobile phones: */
 [class*="col-"] {
