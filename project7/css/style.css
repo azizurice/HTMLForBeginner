@@ -1,44 +1,99 @@
-.doe{
-    display: flex;
-	background-image: url(../images/Chrysanthemum.jpg);
-	color :white;
-}
-
-img{
-	padding: 50px;
-}
-
-a{ 
-	padding: 40px;
-	color: white;
-	text-decoration: none;
-}
-
-.nav{
-	background-color: #009999;
-	height: 40px;
-	text-align: center;
-}
-
 h1{
 	color: #009999;
 	text-align: center;
 }
 
-.para{
-	display: flex;
-	margin-left: 300px;
-}
-
-.border{
-	border-style: solid;
-	margin-left: 80px;
-	height: 170px;
-	width: 300px;
-	padding: 10px;
-}
-
 h4{
 	text-align: center;
 	color: #009999;
+}
+
+
+img{
+	padding: 50px;
+}
+
+a{
+  padding: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.background-image{
+	background-image: url(../images/Chrysanthemum.jpg);
+	color :white;
+  display: flex;
+  height: auto;
+  background-repeat: repeat;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+}
+
+.navigation-Bars{
+	background-color: #009999;
+	text-align: center;
+}
+
+.paragraph{
+	display: flex;
+  height: auto;
+  background-repeat: repeat;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+}
+
+.border-box{
+	border-style: solid;
+	padding: 10px;
+  margin-right: 40px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-tablet-1 {width: 8.33%;}
+    .col-tablet-2 {width: 16.66%;}
+    .col-tablet-3 {width: 25%;}
+    .col-tablet-4 {width: 33.33%;}
+    .col-tablet-5 {width: 41.66%;}
+    .col-tablet-6 {width: 50%;}
+    .col-tablet-7 {width: 58.33%;}
+    .col-tablet-8 {width: 66.66%;}
+    .col-tablet-9 {width: 75%;}
+    .col-tablet-10 {width: 83.33%;}
+    .col-tablet-11 {width: 91.66%;}
+    .col-tablet-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
