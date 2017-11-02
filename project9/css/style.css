@@ -2,17 +2,26 @@ body{
   color: white;
 }
 
-.profile{
+.flex-container{
   display: flex;
+  height: auto;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
 }
 
-.column{
-  width: 600px;
+.container{
   display: flex;
-  flex-wrap: wrap;
+
 }
 
-.col-1{
+.about{
   background-color: #47d147;
   width: 400px;
   height: 150px;
@@ -27,49 +36,49 @@ body{
   margin-left: 10px;
 }
 
-.col-2{
+.address-card{
   background-color: #ffa64d;
   width: 200px;
   height: 150px;
   text-align: center;
 }
 
-.col-3{
+.bar-chart{
   background-color: #00ace6;
   width: 200px;
   height: 150px;
   text-align: center;
 }
 
-.col-4{
+.book{
   background-color: red;
   width: 200px;
   height: 150px;
   text-align: center;
 }
 
-.col-5{
+.edit{
   background-color: #47d147;
   width: 200px;
   height: 150px;
   text-align: center;
 }
 
-.col-6{
+.plus{
   background-color: #ff7733;
   width: 200px;
   height: 150px;
   text-align: center;
 }
 
-.col-7{
+.paper-plane{
   background-color: #00ace6;
   width: 200px;
   height: 150px;
   text-align: center;
 }
 
-.col-8{
+.desktop{
   background-color: #ff7733;
   width: 200px;
   height: 150px;
@@ -80,19 +89,37 @@ body{
   margin-top: 40px;
  }
 
- /* For mobile phones: */
+/* For mobile phones: */
 [class*="col-"] {
-  width: 100%;
+    width: 100%;
 }
-
 @media only screen and (min-width: 600px) {
     /* For tablets: */
-  .col-1 {width: 400px;}
-  .col-2 {width: 200px;}
-  .col-3 {width: 200px;}
-  .col-4 {width: 200px;}
-  .col-5 {width: 200px;}
-  .col-6 {width: 200px;}
-  .col-7 {width: 200px;}
-  .col-8 {width: 200px;}
+    .col-tablet-1 {width: 8.33%;}
+    .col-tablet-2 {width: 16.66%;}
+    .col-tablet-3 {width: 25%;}
+    .col-tablet-4 {width: 33.33%;}
+    .col-tablet-5 {width: 41.66%;}
+    .col-tablet-6 {width: 50%;}
+    .col-tablet-7 {width: 58.33%;}
+    .col-tablet-8 {width: 66.66%;}
+    .col-tablet-9 {width: 75%;}
+    .col-tablet-10 {width: 83.33%;}
+    .col-tablet-11 {width: 91.66%;}
+    .col-tablet-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
