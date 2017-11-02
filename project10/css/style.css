@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
   font-family: Helvetica, sans-serif;
 }
 
-.background-pic{
+.background-picture{
   background-image: url(../images/chess-2730034__340.jpg);
   background-size: 1500px 800px;
   background-repeat: no-repeat;
@@ -18,34 +22,39 @@ body{
 .rayhan{
   text-align: center;
 }
-.one{
+.hr-one{
   width: 170px;
   color: #ff6666;
 }
 
-.hire{
- background-color: #ff6666;
- width: 100px;
- border-radius: 5px;
- margin-left: auto;
- margin-right: auto;
- padding-left: 15px;
- padding-right: 15px;
+.hire-me{
+  background-color: #ff6666;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .about{
   display: flex;
-  padding: 100px;
+  height: auto;
+  justify-content: center;
+  padding: 50px;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
 }
 
-.two{
+.hr-two{
   color: #ff6666;
   width: 50px;
   margin-left: 1px;
-}
-
-img{
-  margin-left: 400px;
 }
 
 h3{
@@ -59,10 +68,6 @@ h3{
   color: black;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -73,8 +78,8 @@ h3{
   content: '';
   position: absolute;
   width: 2px;
-	margin-bottom: 200px;
-	margin-top:15px;
+  margin-bottom: 200px;
+  margin-top:15px;
   background-color: black;
   top: 0;
   bottom: 0;
@@ -148,11 +153,20 @@ h3{
   padding: 70px;
   background-size: 1333px 600px;
   background-repeat: repeat;
-  height: 600px;
+  height: auto;
 }
 
 .progress{
   display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
 }
 
 .myProgress {
@@ -161,7 +175,7 @@ h3{
 }
 
 .bars{
-  padding: 100px;
+  padding: 50px;
 }
 .myBar {
   width: 90%;
